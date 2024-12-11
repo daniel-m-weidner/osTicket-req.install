@@ -15,13 +15,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+You will require the following programs/files in order to install and run osTicket
+- HeidiSQL                                                https://www.heidisql.com/download.php
+- MySQL                                                   https://dev.mysql.com/downloads/installer/
+- osTicket core files                                     https://osticket.com/download/
+- php files + php manager for IIS                         https://windows.php.net/download/    https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10
+- iis url rewrite module 2 + Visual C++ 2015-2022 redist  https://www.iis.net/downloads/microsoft/url-rewrite https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version
 
 <h2>Installation Steps</h2>
 
