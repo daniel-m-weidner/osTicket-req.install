@@ -27,16 +27,15 @@ You will require the following programs/files in order to install and run osTick
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/wDvE1cl.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FnphtDQ.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 <p>
-<img src="https://i.imgur.com/ggMfN3Q.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KdW2nzu.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
+To start off, we first have to create a Virtual Machine within Azure. Preferrably set up a new resource group, name the VM, select your region of choice, and for the disk image choose Win10 Pro. For the size/computing power just make sure you have enough power, otherwise the experience will be slow. Choose your account username and password and you will be able to choose review and create, and then create after validation. The deployment will take some time and Azure should notify you when complete. When ready, in the seach bar find "Virtual Machines" and you will see it listed there. There you can find the public IP, simply copy it.
 <p>
 <img src="https://i.imgur.com/drNpQHi.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -45,7 +44,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/7MnmxpE.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After a successful connection is established, we will need to install the programs and files mentioned before, however first we will enable IIS with CGI on as well, which can be accessed through searching "turn Windows features on or off" in the Start menu. Upon opening, select "Internet Information Services", and then expand the selection, expand "World Wide Web Services", and "Application Development Features". There, you will find CGI, tick the box and press OK and the features will be applied after a few minutes. To test the Webserver, you may enter the loopback address 127.0.0.1 into a browser and you will be greeted with the default IIS landing page.
+Open "Remote Desktop Connection" on your Windows PC, if you are a Mac user, you need to install the corresponding app first. Insert the IP and username. Now, it will prompt you to enter the password. If the program asks you to confirm something, just click accept/yes. After a successful connection is established, we will need to install the programs and files mentioned before, however first we will enable IIS with CGI on as well, which can be accessed through searching "turn Windows features on or off" in the Start menu. Upon opening, select "Internet Information Services", and then expand the selection, expand "World Wide Web Services", and "Application Development Features". There, you will find CGI, tick the box and press OK and the features will be applied after a few minutes. To test the Webserver, you may enter the loopback address 127.0.0.1 into a browser and you will be greeted with the default IIS landing page.
 <p>
 <img src="https://i.imgur.com/DhJS6hZ.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -119,3 +118,4 @@ That's all! osTicket will congratulate you for successfully installing their pro
 <img src="https://i.imgur.com/6jc4PZQ.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Make sure you stop or delete the Virtual Machine after using osTicket this way to make sure there is no cost incurred through Azure. If you stop it, you will be able to use it at a later time.
