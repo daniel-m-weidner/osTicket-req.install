@@ -60,10 +60,6 @@ Now it is time to install our programs, as well as implement PHP. First, install
 <img src="https://i.imgur.com/RMseTg0.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 In this step, we are registering PHP inside the IIS manager. Type IIS in the windows Start menu and you will be able to open it. CLick "Register new PHP version" and you can select the PHP executable (php-cgi.exe) that is located in the PHP folder we have created (C:\PHP\). Hit OK and it is finished.
 <p>
 <img src="https://i.imgur.com/r0shrtS.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
