@@ -15,7 +15,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>Prerequisites</h2>
+<h2>Requirements</h2>
 
 You will require the following programs/files in order to install and run osTicket
 - HeidiSQL                                                https://www.heidisql.com/download.php
@@ -45,7 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/7MnmxpE.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After a successful connection is established, we will need to install the programs and files mentioned before, however first we will enable IIS with CGI on as well, which can be accessed through searching "turn Windows features on or off" in the Start menu. Upon opening, select "Internet Information Services", and then expand the selection, expand "World Wide Web Services", and "Application Development Features". There, you will find CGI, tick the box and press OK and the features are ready.
 <p>
 <img src="https://i.imgur.com/DhJS6hZ.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
