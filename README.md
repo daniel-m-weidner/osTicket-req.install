@@ -37,7 +37,7 @@ You will require the following programs/files in order to install and run osTick
 <p>
 To start off, we first have to create a Virtual Machine within Azure. Preferrably set up a new resource group, name the VM, select your region of choice, and for the disk image choose Win10 Pro. For the size/computing power just make sure you have enough power, otherwise the experience will be slow. Choose your account username and password and you will be able to choose review and create, and then create after validation. The deployment will take some time and Azure should notify you when complete. When ready, in the seach bar find "Virtual Machines" and you will see it listed there. There you can find the public IP, simply copy it.
 <p>
-<img src="https://i.imgur.com/drNpQHi.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IOlcOh3.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
