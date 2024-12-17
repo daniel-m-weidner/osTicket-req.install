@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/KWGoc9q.png" height="350%" width="50%" alt="osTicket logo"/>
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
@@ -102,7 +102,7 @@ Navigate to C:\inetpub\wwwroot\osTicket\include\ and you can search for ost-samp
 <p>
 For the sake of this tutorial, I have used made-up email adresses. Fill out the information as you see fit, however amke sure you remember the password later when we sign in. Before proceeding, please install HeidiSQL, which you have downloaded in the beginning. After installation, launch it and hit "skip". Now, click on "New" and it will show the setup that we have created with MySQL. You only need to enter the password you have created during the MySQL installation. Once you click on "open", you arre connected to the SQL database. Right-click on "Unnamed" and select create new>database. Name it "osTicket". Make sure it is spelled correctly. Now that the database it established, you will be able to enter that information into the database section of the osTicket installer. For MySQL database, enter "osTicket", and for username and password, enter your MySQL credentials. Now click "Install Now"
 <p>
-<img src="https://i.imgur.com/CBomh8o.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tFbDJMb.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 That's all! osTicket will congratulate you for successfully installing their program. Now make sure you save the osTicket URL, as well as the Staff Control Panel URL in the browser or in a text  document. They are usually http://localhost/osTicket/ and http://localhost/osTicket/scp/login.php. You will be able to jus tlogin with the admin credentials you entered on the osTicket signup/install. It will ask you to delete the setup folder in C:\inetpub\wwwroot\osTicket, as well as remove the write access in the config file, which we had enabled earlier (ost-config.php).
