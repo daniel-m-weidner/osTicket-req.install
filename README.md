@@ -5,17 +5,17 @@
 <h1>osTicket: Requirements & Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-<h2>Environments and Technologies Used</h2>
+<h2>Operational Necessities</h2>
 
 - Microsoft Azure (personal Virtual Machine platform of choice) (local VM optional)
 - Remote Desktop
-- Internet Information Services (IIS)
+- Internet Information Services (IIS) (contained within Windows)
 
-<h2>Operating Systems Used </h2>
+<h2>Operating System </h2>
 
 - Windows 10</b> (21H2)
 
-<h2>Requirements</h2>
+<h2>Requirements for Installation</h2>
 
 You will require the following programs/files in order to install and run osTicket
 - HeidiSQL                                                https://www.heidisql.com/download.php
